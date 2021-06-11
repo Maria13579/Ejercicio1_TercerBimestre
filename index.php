@@ -20,6 +20,6 @@
     {
         echo "Clase o metodo no existente";
     }
-   //?class=user&method=login
+   //?class=Inventario&method=ListaInventario
 
 ?>
