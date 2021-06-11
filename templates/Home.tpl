@@ -1,6 +1,12 @@
 <html>
     <head>
-        <title>Inventario</title>
+        <title>
+        {if isset($nombre)}
+            {$nombre}
+        {else}
+            Home
+        {/if}
+        </title>
     </head>
     <body>
         <h1>Inventario</h1>
